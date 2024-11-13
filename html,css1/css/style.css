@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Meiryo','Hiragino Kaku Gothic Pro',serif;
+    font-size: 16px;
+    border-top: 10px solid #79a1b1;
+}
+/* aタグはすべての設定。アンダーラインを消す。 */
+a {
+    /* text-decoration: none; */
+    color: #333;
+}
+/* 後ろに追加することで以下の要素を加える */
+.w_inner{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.logo {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.logo img {
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 50px;
+    height: auto;
+}
+.header {
+    width: 1200px;
+    margin: 0 auto;
+    background: #eeeeee;
+}
+.header ul {
+    display: flex;
+}
+.header ul li {
+    width: 200px;
+    min-width: 200px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+.header ul li:first-child {
+    border-left: 1px solid #ddd;
+}
+.header ul li a {
+    display: block;
+}
+
+.header_img img {
+    width: 80px;
+    height: auto;
+}
+
+.container_service .service_block{
+    display: flex;
+    justify-content: space-between;
+}
+.service_block .service {
+    text-align: center;
+}
+.container_service h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.container_service img {
+    width: 50px;
+    height: auto;
+}
+.container_service a{
+    background: #79a1b1;
+    color: white;
+    /* 文字の周りに余白をつける */
+    padding: 15px 20px 12px;
+}
+.container_service .explain {
+    margin-bottom: 20px;
+}
+.footer {
+    margin-top: 40px;
+}
+.pp_link {
+    text-align: right;
+}
+.copy {
+    text-align: center;
+    background: #79a1b1;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+}
